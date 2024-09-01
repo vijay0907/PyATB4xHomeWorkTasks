@@ -12,7 +12,7 @@ print(f"Power of number1 is : {result_of_pow}")
 result_of_sum = num1+num2
 result_of_sub = num1-num2
 result_of_mul = num1*num2
-result_of_div = num1/num2
+result_of_div = num1/num2 if num2 !=0 else "undefined (cannot divide by zero)"
 
 
 print(f"Sum of two numbers : {result_of_sum}")
